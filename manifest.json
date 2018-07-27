@@ -1,0 +1,15 @@
+{
+  "name":"tpot Distance meter",
+  "protocol": "TURIP0.20",
+  "description":"tpotの測距センサモジュール",
+  "interface":["spi"],
+  "port":[
+    {
+      "number":1,
+      "name":"distance",
+      "description":"距離 [mm]",
+      "permission":"RO",
+      "type":"uint16"
+    }
+  ]
+}
